@@ -4,7 +4,7 @@ forge 'https://forgeapi.puppet.com'
 mod 'puppetlabs-stdlib', '9.6.0'
 
 # Concat (often needed by other modules)
-mod 'puppetlabs-concat', '9.1.1'
+mod 'puppetlabs-concat', '9.1.0'
 
 # A common utility module
 mod 'puppetlabs-apt', '9.4.0'
