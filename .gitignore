@@ -1,0 +1,10 @@
+# Puppet generated files
+.resource_types/
+modules/
+.tmp/
+.librarian/
+Puppetfile.lock
+
+# OS generated files
+.DS_Store
+Thumbs.db

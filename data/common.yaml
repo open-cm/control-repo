@@ -1,0 +1,3 @@
+---
+# Common Hiera data
+profile::base::message: "Hello from Hiera!"
