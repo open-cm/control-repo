@@ -20,10 +20,10 @@ mod 'puppet-archive', '8.1.0'
 # mod 'kubernetes', :local => true
 # mod 'openobserve', :local => true
 
-mod 'config_elasticsearch',
+mod 'elasticsearch',
   :git => 'git@github.com:open-cm/config-elasticsearch.git',
   :branch => 'main'
 
-mod 'config_zabbix',
+mod 'zabbix',
   :git => 'git@github.com:open-cm/config-zabbix.git',
   :branch => 'main'
