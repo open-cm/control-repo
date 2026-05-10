@@ -19,3 +19,11 @@ mod 'puppet-archive', '8.1.0'
 # These are kept in the control repo and not downloaded from the forge
 # mod 'kubernetes', :local => true
 # mod 'openobserve', :local => true
+
+mod 'config_elasticsearch',
+  :git => 'git@github.com:open-cm/config-elasticsearch.git',
+  :branch => 'main'
+
+mod 'config_zabbix',
+  :git => 'git@github.com:open-cm/config-zabbix.git',
+  :branch => 'main'
