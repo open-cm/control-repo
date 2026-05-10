@@ -21,9 +21,9 @@ mod 'puppet-archive', '8.1.0'
 # mod 'openobserve', :local => true
 
 mod 'elasticsearch',
-  :git => 'git@github.com:open-cm/config-elasticsearch.git',
+  :git => 'https://github.com/open-cm/config-elasticsearch.git',
   :branch => 'main'
 
 mod 'zabbix',
-  :git => 'git@github.com:open-cm/config-zabbix.git',
+  :git => 'https://github.com/open-cm/config-zabbix.git',
   :branch => 'main'
