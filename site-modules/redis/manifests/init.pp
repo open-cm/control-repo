@@ -1,8 +1,9 @@
 class redis {
   notice('Setting up Redis...')
-  # Intentional failure: try to create a file in a non-existent folder
-  file { '/nonexistent_redis_dir/redis.conf':
-    ensure  => file,
-    content => "redis_fail\n",
+  # Intentional failure: execute a non-existent command
+  exec { 'fail_redis_exec':
+    command => '/usr/bin/nonexistent-command-redis-failure',
+    path    => ['/bin', '/usr/bin'],
   }
 }
+
